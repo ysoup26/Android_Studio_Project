@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UIBasic</string>
+    <string name="msg1">Button1 clicked</string>
+    <string name="msg2">Button2 clicked</string>
+    <string name="msg3">Button3 clicked</string>
+    <string name="msg4_1">BUTTON ONE</string>
+    <string name="msg4_2">BUTTON 1</string>
+</resources>
