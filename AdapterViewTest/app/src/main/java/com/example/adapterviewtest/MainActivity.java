@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         ListView listView = (ListView) findViewById(R.id.listview);
         listView.setAdapter(adapter);
 
-        //어댑터 이벤트처리
+        //어댑터 이벤트처리-아이템(리스트)가 클릭되면
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View vClicked, int position, long id) {
                 String name = ((MyItem) adapter.getItem(position)).mClassName; //과목이름을 출력해줌

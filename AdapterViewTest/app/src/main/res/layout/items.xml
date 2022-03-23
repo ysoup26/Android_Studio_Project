@@ -28,7 +28,7 @@
             android:padding="@dimen/list_item_padding"
             android:textColor="#E91E63"
             android:textSize="@dimen/list_item_text_size1" />
-        <!--        디자인탭 속성으로 색상 바꾼것!-->
+        <!--        디자인탭 속성에서 색상을 바꿀 수 있다!-->
         <TextView
             android:id="@+id/textItem2"
             android:layout_width="wrap_content"
