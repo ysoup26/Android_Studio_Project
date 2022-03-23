@@ -19,9 +19,9 @@ public class MainActivity extends AppCompatActivity {
 
         // 데이터 원본
         ArrayList<MyItem> data = new ArrayList<MyItem>();
-        data.add(new MyItem("안드로이드 프로그래밍", "수3:00~6:00","상상관304"));
-        data.add(new MyItem("사물인터넷 개론 A", "월12:00~1:30,목1:30~3:00","상상관304"));
-        data.add(new MyItem("사물인터넷 개론 N", "월5:00~6:25,목7:25~8:45","상상관304"));
+        data.add(new MyItem("안드로이드\n프로그래밍", "수3:00~6:00","상상관304"));
+        data.add(new MyItem("사물인터넷\n개론 A", "월12:00~1:30,목1:30~3:00","상상관304"));
+        data.add(new MyItem("사물인터넷\n개론 N", "월5:00~6:25,목7:25~8:45","상상관304"));
         //데이터 추가하고 싶으면 여기만 추가하면 됨!
 
         //어댑터 생성

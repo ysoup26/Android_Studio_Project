@@ -12,24 +12,17 @@
         android:padding="@dimen/icon_padding"
         android:layout_gravity="center_vertical"
         android:layout_weight="1"
-
         android:hint="강좌이름"/>
     <!--        hint: 실제로 값을 준게 아니라 힌트를 주는 것-->
-    <View
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:background="@color/black"
-        android:layout_weight="1" />
-<!--    구글링으로 찾은 우측정렬
-        1만큼의 비율을 차지하는 가상의 뷰를 만든것
-        올바른 방법인지는..?-->
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:layout_weight="2">
-
+        <!-- 주의! 하위 콘텐츠에 layout-gravity를 사용하려면
+        상위 콘텐츠가 match_parent여야한다!
+        wrap_content으로 하면 하위 콘텐츠에 맞춰져서 그런듯??-->
         <TextView
             android:id="@+id/textItem1"
             android:layout_width="wrap_content"
