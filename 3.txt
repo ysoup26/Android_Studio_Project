@@ -1,0 +1,48 @@
+동영상
+-다수의 이미지 영상(프레임)이 빠르게 재생 
+프레임 레이트: 재생 속도/fps 1초당 몇 프레임인지
+-실제로는 다양한 형태로 압축된 파일(다양한 코덱 존재, 변화하는 부분만 저장->효율적)
+videoCapture클래스:동영상을 처리할 수 있는 클래스
+이 클래스를 통해 카메라(웹캠) 및 동영상으로 부터 프레임을 받아옴
+cv2.VideoCapture(), cv2.VideoCapture.open(filename/device), cv2.VideoCapture.release()
+0+cv2.CAP_DSHOW 
+cv2.VideoCapture.read()->retval, image
+아스키코드 27==ESC 
+한프레임을 읽고 30ms 기다림
+get 속성을 얻어오는 함수
+set 동영상의 속성을 설정하는 함수
+codec code + encoder
+
+
+shape[1] 가로 shape[0]세로=높이
+
+<>
+에러와 예외처리
+에러 3가지
+	문법 에러>코드로 인한 에러
+	실행 에러>잘못된 입력때문에
+	논리 에러>원치 않는 결과가 나옴
+
+0으로 나눌때, 존재하지 않는 원소에 접근할때..
+
+예외처리 try except
+try:
+except:
+	에러가 발생할때 실행
+	예외처리하면 처리만하고 에러코드는 안뜸
+
+반복자: 값을 순서대로 하나씩 꺼낼 수 있음
+리스트를 리터러블로 바꾸면 인덱스 접근 불가능
+from itertools import count 무한한 범위를 가진 것 같은 count함수
+enumerate(L) 출력이 2개
+map반복자: 함수를 받고 반복자의 값을 적용 map(함수,range(10)) range값 하나하나에 map
+filter 반복자, 참으로 평가한 값만 통과시킴
+
+리스트 내포: 리스트를 만드는 for루프를 압축하는것
+1)for을 리스트로 감쌈->리스트결과
+2)L를 제공해 append
+
+input
+map(int,input().split())
+
+
